@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #53394f;
+    box-sizing: border-box
+}
+
+.outer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    width: 800px;
+    height: 350px;
+    background-color: #5a6882;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 300px;
+    background-color: #292542;
+}
+
+.inner{
+    width: 700px;
+    height: 250px;
+    background-color: #53394f;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R3 Q2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="middle">
+            <div class="inner">
+                <button onClick="changeTheme()" class="bg">
+                    Change theme
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let f = 0;
+    function changeTheme() {
+        if (f == 0) {
+            document.querySelector(".outer").style.background = "#fff";
+            document.querySelector(".middle").style.background = "#000";
+            document.querySelector(".inner").style.background = "#fff";
+            f = 1;
+        }
+        else {
+            document.querySelector(".outer").style.background = "#000";
+            document.querySelector(".middle").style.background = "#fff";
+            document.querySelector(".inner").style.background = "#000";
+            f = 0;
+
+        }
+        
+    }
+</script>
+</html>

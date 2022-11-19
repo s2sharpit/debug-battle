@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.after{
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: white;
+    background-color: blue;
+}
+
+.before{
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    background-color: green;
+}
